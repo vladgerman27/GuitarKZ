@@ -1,0 +1,43 @@
+header {
+    display: flex;
+    margin: 62px;
+    justify-content: space-around;
+}
+
+.logo {
+    width: 123px;
+    height: 31px;
+}
+
+.pages-links a {
+    text-decoration: none;
+    color: rgba(18, 18, 18, 0.40);
+    margin: 23px;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+.pages-links a:hover {
+    background-color: rgb(220, 220, 220);
+    color: #FF6428;
+}
+
+header a:active {
+    color: rgba(98, 98, 98, 0.4);
+    color: #c95020;
+}
+
+header button {
+    width: 100px;
+    color: white;
+    border: none;
+    background-color: #FF6428;
+    border-radius: 40px;
+    padding: 10px;
+    transition: 0.4s;
+}
+
+header button:hover {
+    background-color: #c95020;
+}
