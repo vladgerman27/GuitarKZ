@@ -1,0 +1,84 @@
+.Singup {
+    display: flex;
+    justify-content: center;
+}
+
+.Singup button {
+    display: block;
+}
+
+.singup-form {
+    display: block;
+    margin-top: 200px;
+}
+
+.singup-form h1 {
+    color: #FF6428;
+    margin-left: 70px;
+}
+
+.singup-input {
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1.5px solid #666666;
+    transition: 0.4s;
+    padding: 5px;
+}
+
+.singup-input:focus {
+    outline: none;
+    border-bottom: 1.5px solid #FF6428; 
+}
+
+.singup-input:focus::placeholder {
+    color: #FF6428;
+}
+
+.singup-form label {
+    display: flex;
+    font-size: 20px;
+}
+
+.singup-form label input {
+    margin: 5px;
+}
+
+input[type="checkbox"] {
+    background-color: #FF6428;
+}
+
+.singup-form button {
+    width: 100%;
+    color: white;
+    border: none;
+    background-color: #FF6428;
+    border-radius: 40px;
+    padding: 10px;
+    transition: 0.4s;
+    font-size: 20px;
+    margin: 10px auto 10px auto;
+}
+
+.singup-form button:hover {
+    background-color: #c95020;
+}
+
+.singup-form a {
+    font-size: 20px;
+    color: #666666;
+    margin-left: 20px;
+    transition: 0.4s;
+}
+
+.singup-form a:hover {
+    color: #FF6428;
+}
+
+.mistake {
+    color: #FF6428;
+    font-size: 20px;
+    margin-bottom: 10px;
+    max-width: 247px;
+}
