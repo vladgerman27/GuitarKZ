@@ -1,0 +1,23 @@
+.Contacts h1 {
+    color: #FF6428;
+    text-align: center;
+}
+
+.shops {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.shop {
+    margin: 30px;
+    font-size: 20px;
+}
+
+.shop nav {
+    margin-bottom: 20px;
+}
+
+.shop b {
+    color: #FF6428;
+}
